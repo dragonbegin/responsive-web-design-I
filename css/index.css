@@ -252,3 +252,123 @@ margin-bottom: 20px;
 width: 420px;
 height: 300px;
 }
+
+/* Responsive page */
+
+
+/* Table View */
+
+@media (max-width: 800px) {
+
+.container {
+	
+}
+
+.header {
+
+flex-direction: column-reverse;
+align-items: center;
+
+}
+
+.header nav a {
+
+align-items: center;
+
+}
+
+.headerimg {
+
+display: none;
+
+}
+
+.middle-img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header a {
+	align-items: center;
+}
+
+.cta {
+
+justify-content: center;
+
+}
+
+.main-content {
+	margin: 20px;
+	justify-content: center;
+
+}
+
+.contact {
+	margin: 25px;
+	justify-content: center;
+
+}
+
+
+
+}
+
+/* Mobile View */
+
+@media (max-width: 500px) {
+
+	.container {
+		
+	} 
+
+	.header {
+
+		flex-direction: column-reverse;
+		align-items: center;
+		
+		}
+		
+		.header nav a {
+		justify-content: column;
+		align-items: center;
+		
+		}
+		
+		.headerimg {
+
+			display: none;
+			
+			}
+			
+			.middle-img {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			.header a {
+				align-items: center;
+			}
+			
+			.cta {
+			
+			justify-content: center;
+			
+			}
+			
+			.main-content {
+				margin: 20px;
+				align-content: center;
+				justify-content: center;
+			
+			}
+			
+			.contact {
+				margin: 25px;
+				justify-content: center;
+			
+			}
+		
+	}
+		
+	
